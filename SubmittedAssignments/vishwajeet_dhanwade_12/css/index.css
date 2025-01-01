@@ -1,0 +1,288 @@
+*{
+    margin: 0mm;
+    padding: 0mm;
+    font-family: sans-serif;
+}
+
+center{
+    padding: 40mm;
+}
+.card-wrapper{ 
+  margin: auto;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+}
+.card-background{
+   background-color: rgb(206, 204, 204);
+    height: 105mm;
+    width: 133%;
+    transform: rotate(-17deg);
+    position: absolute;
+    left: -7mm;
+    top: 97mm;
+}
+.card1-background{
+    height:100mm;
+    width: 150mm;
+	top:34mm;
+	left:28mm;
+    border-radius: 5mm;
+    overflow: hidden;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0270833333mm 10.054166667mm, rgba(0, 0, 0, 0.22) 0mm 3.96875mm 3.175mm;
+}
+
+.card1-content{
+      text-align: center;
+      margin-top: 44mm;
+
+}
+.logo{
+    font-size: 59.52pt;
+    transform: rotate(45deg);
+    color: rgb(255, 177, 27);
+    border-radius: -13mm;
+    margin-left: -16mm;
+    margin-left: 20mm;
+    margin-top: -96mm;
+    position: absolute;
+    position: absolute;
+}
+.left-big {
+
+    height: 25mm;
+    width: 103mm;
+    transform: skew(28deg);
+    border-top-right-radius: 5.29mm;
+    background: rgb(1, 32, 63);
+    top: 76mm;
+    left: -6mm;
+    position: absolute;
+    overflow: hidden;
+}
+
+.left-mid {
+    height: 21mm;
+    width: 118mm;
+    transform: skew(43deg);
+    /* border-top-left-radius: 5.29mm; */
+    background: rgb(255, 177, 27);
+    top: 80mm;
+    left: 65mm;
+    position: absolute;
+    text-align: center;
+}
+ .party-name {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: sans-serif;
+    margin-top: -72mm;
+    margin-left: 104mm;
+    width: 59.26mm;
+    font-size: 22.71pt;
+    font-weight: bold;
+    position: absolute;
+
+  }
+  .party-job-title {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-size: 11pt;
+    margin-top: -62.44mm;
+    position: absolute;
+    margin-left: 117mm;
+
+  }
+
+
+#name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:18pt;
+}
+
+.card2-background{
+    height: 100mm;
+     width: 150mm;
+     top: -151mm;
+     left: 30mm;
+     border-radius: 5mm;
+     overflow: hidden;
+     position: relative;
+     margin-top: 13mm;
+     background-color: #FFFFFF;
+     box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0270833333mm 10.054166667mm, rgba(0, 0, 0, 0.22) 0mm 3.96875mm 3.175mm;
+ }
+ .right-big{
+     /* height: 24mm;
+     width: 68mm;
+     transform: skew(-24deg);
+     border-bottom-right-radius: 5.29mm;
+     background: rgb(255, 177, 27);
+     top: 9mm;
+     left: -8mm;
+     position: absolute;
+     overflow: hidden; */
+
+     height: 59mm;
+     width: 0mm;
+     left: 69mm;
+     border-left: 100px solid transparent;
+     border-right: 100px solid transparent;
+     border-bottom: 100px solid rgb(230, 153, 11);
+     position: absolute;
+     overflow: visible;
+     z-index: 2;
+     
+ }
+ 
+ .card2-content .qr{
+     font-size: 73.70pt;
+     position: absolute;
+     right: 0mm;
+     top: -145mm;
+     padding-right: 13.22mm;
+ }
+ 
+ .bi-phone-fill{
+     top: -137mm;
+     position: absolute;
+     overflow: hidden;
+     left: 65mm;
+ }
+ 
+ .right-mid{
+    height: 40mm;
+    width: 98.44mm;
+    transform: skew(-1deg);
+    border-top-left-radius: 0.58mm;
+    background: rgb(1, 32, 63);
+    top: 60mm;
+    left: -2mm;
+    position: absolute;
+    overflow: hidden;
+}
+
+ .right-small{
+    height: 16mm;
+    width: 160mm;
+    transform: skew(50deg);
+    border-top-left-radius: -6.71mm;
+    background: rgb(255, 177, 27);
+    top: 85mm;
+    left: 78mm;
+    position: absolute;
+}
+.card2-content {
+    top: auto;
+    left: auto;
+}
+.loga{
+    font-size: 59.52pt;
+    transform: rotate(45deg);
+    color: rgb(255, 177, 27);
+    border-radius: -13mm;
+    margin-left: -16mm;
+    margin-top: -245mm;
+    position: absolute;
+}
+ .parti-name {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: sans-serif;
+    margin-top: -220mm;
+    margin-left: 67mm;
+    width: 59.26mm;
+    font-size: 22.71pt;
+    font-weight: bold;
+    position: absolute;
+
+ }
+ .parti-job-title {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-size: 11pt;
+    margin-top: -206.44mm;
+    position: absolute;
+    margin-left: 82mm;
+ }
+ .QRcode{
+    top: -84mm;
+    left: 82mm;
+    position: absolute;
+
+ }
+ .Owner-name{font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: sans-serif;
+    margin-top: -241mm;
+    margin-left: 152mm;
+    width: 59.26mm;
+    font-size: 27.71pt;
+    font-weight: bold;
+    position: absolute;
+}
+
+ .Owner-title{
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-size: 11pt;
+    margin-top: -226.44mm;
+    position: absolute;
+    margin-left: 169mm;
+
+ }
+
+ .party-phone1{
+    left: 175mm;
+    bottom: 401mm;
+    width: 35mm;
+    height: -65mm;
+    position: absolute;
+ }
+.phone-icon01 {
+    left: 165mm;
+    top: -112mm;
+    width: 7mm;
+    background-color: orange;
+    height: 7mm;
+    font-size: 6.2mm;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.phone-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+.party-email1 {
+    left: 174mm;
+    bottom: 379mm;
+    width: 35mm;
+    height: 10mm;
+    font-size: 4mm;
+    position: absolute;
+}
+.email-icon01 {
+    position: absolute;
+    left: 165mm;
+    bottom: 383.5mm;
+    width: 7mm;
+    background-color: orange;
+    height: 7mm;
+    font-size: 6.3mm;
+    text-align: center;
+    border-radius: 50%;
+}
+.email-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
